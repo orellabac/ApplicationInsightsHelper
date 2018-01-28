@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net45</TargetFramework>
+		<Authors>mrojas, orellabac</Authors>
+		<Company>orellabac</Company>
+		<Product>ApplicationInsightsHelper</Product>
+		<Description>Helper to ease integrating a Wndows Forms Application with Application Insights.
+This can really help to track your users experience providing real data on when an how your application is used and also to get direct information about exceptions.</Description>
+		<Copyright>MIT</Copyright>
+		<PackageProjectUrl>http:\\github.com\orellabac\ApplicationinsightsHelper</PackageProjectUrl>
+		<RepositoryUrl>http:\\github.com\orellabac\ApplicationinsightsHelper</RepositoryUrl>
+		<PackageTags>Application Insights Windows Forms</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="System.Windows.Forms" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Properties\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" Version="2.4.0" />
+	</ItemGroup>
+
+</Project>
